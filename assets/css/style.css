@@ -6,11 +6,12 @@
 
 body {
   font-family: 'Nunito', cursive;
+  font-size: 25px;
 }
 
 .header {
   background-image: url("/assets/imgs/Lulu.jpg");
-  height: 250px;
+  height: 350px;
   background-position: 60% 40%;
   background-repeat: no-repeat;
   background-size: cover;
