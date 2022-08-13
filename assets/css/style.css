@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-image: url("/assets/imgs/Lulu.jpg");
+  background-image: url("../imgs/Lulu.jpg");
   height: 350px;
   background-position: 60% 40%;
   background-repeat: no-repeat;
