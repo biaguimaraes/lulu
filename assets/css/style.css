@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', cursive;
+}
+
+.header {
+  background-image: url("/assets/imgs/Lulu.jpg");
+  height: 250px;
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 15px grey;
+  color: #b0b8f4;
+  font-family: 'Silkscreen', cursive;
+  text-decoration-line: overline;
+  text-shadow: 5px 3px rgb(41, 41, 41);
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 20%;
+  background: rgb(233, 187, 255);
+  padding: 20px;
+  margin: 10px 5px;
+  border-radius: 10px;
+}
+
+.list-lulu {
+  list-style: none;
+}
+
+.list-lulu li {
+  background-color: #f700ff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px 0px;
+  text-align: center;
+}
+
+.list-lulu li a {
+  text-decoration: none;
+  color: rgb(35 29 140);
+}
+
+h1 {
+  padding: 20px 0px;
+}
+
+.content {
+  width: 80%;
+  background-color: rgb(197, 135, 255);
+  padding: 30px;
+  margin: 10px 5px;
+  border-radius: 50px;
+  word-wrap: break-word;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #76a5f3;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 20px;
+}
